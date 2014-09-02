@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13C64" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ChatHistory" syncable="YES">
+        <attribute name="customParameters" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="datetime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="delayed" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ids" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageIdStr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recipientID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="senderNick" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ChatHistory" positionX="-63" positionY="-18" width="128" height="180"/>
+    </elements>
+</model>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QuidProQuoVC">
+            <connections>
+                <outlet property="backBtnObj" destination="Lqg-Vb-jTj" id="wQP-Vc-3mH"/>
+                <outlet property="caseImgVew" destination="1rE-cq-gmy" id="7LO-cN-sBc"/>
+                <outlet property="caseInfoBtnObj" destination="Q4z-NW-5xx" id="DTh-87-3oi"/>
+                <outlet property="cashBtnObj" destination="oJN-qm-kFv" id="oxk-Se-AIw"/>
+                <outlet property="closePopupObj" destination="dab-g7-3wu" id="CNU-U1-4IA"/>
+                <outlet property="drinkBtnObj" destination="9Ct-zf-8F6" id="1xa-FA-F5o"/>
+                <outlet property="drinkImgVew" destination="7u8-03-0ky" id="Nhg-EV-zDW"/>
+                <outlet property="drinkInfoBtnObj" destination="HXf-O7-IRM" id="PpH-70-egM"/>
+                <outlet property="giftCardBtnObj" destination="cJn-9A-8kG" id="u1f-PW-d69"/>
+                <outlet property="giftCardImgVew" destination="fjU-73-eJL" id="cUt-cZ-YXX"/>
+                <outlet property="giftCardInfoBtnObj" destination="8bE-yN-il1" id="hf5-mC-RuM"/>
+                <outlet property="goodKarmaBtnObj" destination="gKr-Cp-GfW" id="sR2-2g-b81"/>
+                <outlet property="goodKarmaImgVew" destination="0Cv-A8-lPC" id="wLz-4o-eA4"/>
+                <outlet property="goodKarmaInfoBtnObj" destination="vBW-5W-mfL" id="yAG-pp-UeV"/>
+                <outlet property="nextBtnObj" destination="31w-ZH-XPl" id="tMw-IC-NxT"/>
+                <outlet property="quidProInfoDetailsLabel" destination="mjX-08-PZK" id="SUQ-9e-Sdg"/>
+                <outlet property="sliderImageView" destination="cfS-qE-VUO" id="MSu-AC-yPR"/>
+                <outlet property="sliderView" destination="rQC-Ho-H5G" id="9TA-9U-fTu"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="gKr-Cp-GfW">
+                    <rect key="frame" x="20" y="135" width="130" height="130"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="Good Karma">
+                        <color key="titleColor" red="0.066191576274945763" green="0.74596395953630545" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="quidProBtnAct:" destination="-1" eventType="touchUpInside" id="L3u-Mc-wd2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="oJN-qm-kFv">
+                    <rect key="frame" x="178" y="135" width="130" height="130"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="Cash">
+                        <color key="titleColor" red="0.076654808781639772" green="1" blue="0.072843937706413175" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="quidProBtnAct:" destination="-1" eventType="touchUpInside" id="fpE-ur-pOR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="cJn-9A-8kG">
+                    <rect key="frame" x="19" y="349" width="130" height="130"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="A gift card">
+                        <color key="titleColor" red="1" green="0.33459545002767122" blue="0.058142923766054011" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="quidProBtnAct:" destination="-1" eventType="touchUpInside" id="LiY-RY-dr2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="9Ct-zf-8F6">
+                    <rect key="frame" x="179" y="349" width="130" height="130"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="IOU">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="quidProBtnAct:" destination="-1" eventType="touchUpInside" id="8Dh-t3-nVx"/>
+                    </connections>
+                </button>
+                <navigationBar contentMode="scaleToFill" id="kk1-jb-iQc">
+                    <rect key="frame" x="0.0" y="23" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="barTintColor" red="0.34901961679999999" green="0.73725491759999995" blue="0.79215693470000004" alpha="1" colorSpace="deviceRGB"/>
+                    <textAttributes key="titleTextAttributes">
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </textAttributes>
+                    <items>
+                        <navigationItem title="Quid Pro" id="v7n-E2-OVx">
+                            <barButtonItem key="leftBarButtonItem" image="back-icon.png" id="Lqg-Vb-jTj">
+                                <connections>
+                                    <action selector="backBtnAct:" destination="-1" id="ph5-Bx-AxG"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem key="rightBarButtonItem" image="next-icon.png" id="31w-ZH-XPl">
+                                <connections>
+                                    <action selector="nextBtnAction:" destination="-1" id="Lcb-fV-dnn"/>
+                                </connections>
+                            </barButtonItem>
+                        </navigationItem>
+                    </items>
+                </navigationBar>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="right-icon.png" id="0Cv-A8-lPC">
+                    <rect key="frame" x="62" y="152" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cash.png" id="1rE-cq-gmy">
+                    <rect key="frame" x="221" y="158" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gift.png" id="fjU-73-eJL">
+                    <rect key="frame" x="60" y="362" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="drink.png" id="7u8-03-0ky">
+                    <rect key="frame" x="221" y="362" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="5Lp-ev-Jns">
+                    <rect key="frame" x="159" y="85" width="1" height="427"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="mVo-ba-EMc">
+                    <rect key="frame" x="17" y="307" width="286" height="1"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </imageView>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="vBW-5W-mfL">
+                    <rect key="frame" x="110" y="226" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="info_icon.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="quidProInfoAct:" destination="-1" eventType="touchUpInside" id="I1t-ET-vXE"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Q4z-NW-5xx">
+                    <rect key="frame" x="269" y="226" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="info_icon.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="quidProInfoAct:" destination="-1" eventType="touchUpInside" id="Buf-oe-exJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8bE-yN-il1">
+                    <rect key="frame" x="110" y="464" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="info_icon.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="quidProInfoAct:" destination="-1" eventType="touchUpInside" id="UDp-YH-HvQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="HXf-O7-IRM">
+                    <rect key="frame" x="269" y="464" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="info_icon.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="quidProInfoAct:" destination="-1" eventType="touchUpInside" id="a2F-au-VnZ"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" id="rQC-Ho-H5G">
+                    <rect key="frame" x="14" y="538" width="295" height="370"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="cfS-qE-VUO">
+                            <rect key="frame" x="47" y="38" width="200" height="200"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="dab-g7-3wu">
+                            <rect key="frame" x="262" y="0.0" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="close-icon.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="closePopUp:" destination="-1" eventType="touchUpInside" id="ofi-Dg-X7P"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mjX-08-PZK">
+                            <rect key="frame" x="20" y="239" width="253" height="111"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.34901961679999999" green="0.73725491759999995" blue="0.79215693470000004" alpha="1" colorSpace="deviceRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back-icon.png" width="30" height="30"/>
+        <image name="cash.png" width="40" height="40"/>
+        <image name="close-icon.png" width="30" height="30"/>
+        <image name="drink.png" width="40" height="40"/>
+        <image name="gift.png" width="40" height="40"/>
+        <image name="info_icon.png" width="40" height="40"/>
+        <image name="next-icon.png" width="30" height="30"/>
+        <image name="right-icon.png" width="40" height="40"/>
+    </resources>
+</document>
